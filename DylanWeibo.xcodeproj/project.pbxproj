@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC29409716A93CA400EC8C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC29409616A93CA400EC8C0D /* UIKit.framework */; };
+		FC29409916A93CA400EC8C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC29409816A93CA400EC8C0D /* Foundation.framework */; };
+		FC29409B16A93CA400EC8C0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC29409A16A93CA400EC8C0D /* CoreGraphics.framework */; };
+		FC2940A116A93CA400EC8C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC29409F16A93CA400EC8C0D /* InfoPlist.strings */; };
+		FC2940A316A93CA400EC8C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2940A216A93CA400EC8C0D /* main.m */; };
+		FC2940A716A93CA400EC8C0D /* DAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2940A616A93CA400EC8C0D /* DAppDelegate.m */; };
+		FC2940A916A93CA400EC8C0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2940A816A93CA400EC8C0D /* Default.png */; };
+		FC2940AB16A93CA400EC8C0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2940AA16A93CA400EC8C0D /* Default@2x.png */; };
+		FC2940AD16A93CA400EC8C0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2940AC16A93CA400EC8C0D /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC29409216A93CA400EC8C0D /* DylanWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DylanWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC29409616A93CA400EC8C0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC29409816A93CA400EC8C0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC29409A16A93CA400EC8C0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC29409E16A93CA400EC8C0D /* DylanWeibo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DylanWeibo-Info.plist"; sourceTree = "<group>"; };
+		FC2940A016A93CA400EC8C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC2940A216A93CA400EC8C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC2940A416A93CA400EC8C0D /* DylanWeibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DylanWeibo-Prefix.pch"; sourceTree = "<group>"; };
+		FC2940A516A93CA400EC8C0D /* DAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAppDelegate.h; sourceTree = "<group>"; };
+		FC2940A616A93CA400EC8C0D /* DAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAppDelegate.m; sourceTree = "<group>"; };
+		FC2940A816A93CA400EC8C0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC2940AA16A93CA400EC8C0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC2940AC16A93CA400EC8C0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC29408F16A93CA400EC8C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC29409716A93CA400EC8C0D /* UIKit.framework in Frameworks */,
+				FC29409916A93CA400EC8C0D /* Foundation.framework in Frameworks */,
+				FC29409B16A93CA400EC8C0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC29408716A93CA400EC8C0D = {
+			isa = PBXGroup;
+			children = (
+				FC29409C16A93CA400EC8C0D /* DylanWeibo */,
+				FC29409516A93CA400EC8C0D /* Frameworks */,
+				FC29409316A93CA400EC8C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC29409316A93CA400EC8C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC29409216A93CA400EC8C0D /* DylanWeibo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC29409516A93CA400EC8C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC29409616A93CA400EC8C0D /* UIKit.framework */,
+				FC29409816A93CA400EC8C0D /* Foundation.framework */,
+				FC29409A16A93CA400EC8C0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC29409C16A93CA400EC8C0D /* DylanWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				FC2940A516A93CA400EC8C0D /* DAppDelegate.h */,
+				FC2940A616A93CA400EC8C0D /* DAppDelegate.m */,
+				FC29409D16A93CA400EC8C0D /* Supporting Files */,
+			);
+			path = DylanWeibo;
+			sourceTree = "<group>";
+		};
+		FC29409D16A93CA400EC8C0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC29409E16A93CA400EC8C0D /* DylanWeibo-Info.plist */,
+				FC29409F16A93CA400EC8C0D /* InfoPlist.strings */,
+				FC2940A216A93CA400EC8C0D /* main.m */,
+				FC2940A416A93CA400EC8C0D /* DylanWeibo-Prefix.pch */,
+				FC2940A816A93CA400EC8C0D /* Default.png */,
+				FC2940AA16A93CA400EC8C0D /* Default@2x.png */,
+				FC2940AC16A93CA400EC8C0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC29409116A93CA400EC8C0D /* DylanWeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2940B016A93CA400EC8C0D /* Build configuration list for PBXNativeTarget "DylanWeibo" */;
+			buildPhases = (
+				FC29408E16A93CA400EC8C0D /* Sources */,
+				FC29408F16A93CA400EC8C0D /* Frameworks */,
+				FC29409016A93CA400EC8C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DylanWeibo;
+			productName = DylanWeibo;
+			productReference = FC29409216A93CA400EC8C0D /* DylanWeibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC29408916A93CA400EC8C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = D;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Dylan;
+			};
+			buildConfigurationList = FC29408C16A93CA400EC8C0D /* Build configuration list for PBXProject "DylanWeibo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC29408716A93CA400EC8C0D;
+			productRefGroup = FC29409316A93CA400EC8C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC29409116A93CA400EC8C0D /* DylanWeibo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC29409016A93CA400EC8C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2940A116A93CA400EC8C0D /* InfoPlist.strings in Resources */,
+				FC2940A916A93CA400EC8C0D /* Default.png in Resources */,
+				FC2940AB16A93CA400EC8C0D /* Default@2x.png in Resources */,
+				FC2940AD16A93CA400EC8C0D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC29408E16A93CA400EC8C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2940A316A93CA400EC8C0D /* main.m in Sources */,
+				FC2940A716A93CA400EC8C0D /* DAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC29409F16A93CA400EC8C0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2940A016A93CA400EC8C0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2940AE16A93CA400EC8C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC2940AF16A93CA400EC8C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2940B116A93CA400EC8C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DylanWeibo/DylanWeibo-Prefix.pch";
+				INFOPLIST_FILE = "DylanWeibo/DylanWeibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC2940B216A93CA400EC8C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DylanWeibo/DylanWeibo-Prefix.pch";
+				INFOPLIST_FILE = "DylanWeibo/DylanWeibo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC29408C16A93CA400EC8C0D /* Build configuration list for PBXProject "DylanWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2940AE16A93CA400EC8C0D /* Debug */,
+				FC2940AF16A93CA400EC8C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2940B016A93CA400EC8C0D /* Build configuration list for PBXNativeTarget "DylanWeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2940B116A93CA400EC8C0D /* Debug */,
+				FC2940B216A93CA400EC8C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC29408916A93CA400EC8C0D /* Project object */;
+}
